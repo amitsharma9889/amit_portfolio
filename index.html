@@ -432,10 +432,11 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">amit.dev</div>
+  <div class="nav-logo">&lt;amit/&gt;</div>
   <ul class="nav-links">
     <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
     <li><a href="#certifications">Certs</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -450,7 +451,7 @@
       <span id="typed-text"></span><span class="typed-cursor">|</span>
     </div>
     <p class="hero-bio">
-      B.Tech CSE student at SRIMT Lucknow, building real-world projects with Python, JavaScript, and AI/ML. Certified by TATA and Deloitte. Passionate about clean code and solving hard problems.
+      Final-year B.Tech CSE student with strong fundamentals in DSA, OOP and DBMS. I build responsive full stack web apps with React.js, Node.js, Express.js and MongoDB, from RESTful API design to a polished UI. Seeking a Software Developer Intern role.
     </p>
     <div class="hero-cta">
       <a href="#projects" class="btn-primary">View Projects</a>
@@ -462,8 +463,8 @@
 <!-- STATS -->
 <div class="stats-bar">
   <div class="stat">
-    <div class="stat-num" id="cgpa-count">0</div>
-    <div class="stat-label">CGPA</div>
+    <div class="stat-num" id="intern-count">0</div>
+    <div class="stat-label">Internship</div>
   </div>
   <div class="stat">
     <div class="stat-num" id="proj-count">0</div>
@@ -488,9 +489,9 @@
       <div class="skill-cat reveal">
         <div class="skill-cat-title">Languages</div>
         <div class="skill-tags">
+          <span class="skill-tag">Java</span>
           <span class="skill-tag">Python</span>
           <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">Java</span>
           <span class="skill-tag">C</span>
         </div>
       </div>
@@ -499,15 +500,33 @@
         <div class="skill-tags">
           <span class="skill-tag">HTML</span>
           <span class="skill-tag">CSS</span>
-          <span class="skill-tag">React</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React.js</span>
+          <span class="skill-tag">Responsive Design</span>
         </div>
       </div>
       <div class="skill-cat reveal">
-        <div class="skill-cat-title">Backend & DB</div>
+        <div class="skill-cat-title">Backend</div>
         <div class="skill-tags">
           <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Express.js</span>
+          <span class="skill-tag">RESTful APIs</span>
+        </div>
+      </div>
+      <div class="skill-cat reveal">
+        <div class="skill-cat-title">Database</div>
+        <div class="skill-tags">
           <span class="skill-tag">MongoDB</span>
-          <span class="skill-tag">REST API</span>
+          <span class="skill-tag">MySQL</span>
+        </div>
+      </div>
+      <div class="skill-cat reveal">
+        <div class="skill-cat-title">Core CS</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Data Structures</span>
+          <span class="skill-tag">Algorithms</span>
+          <span class="skill-tag">OOP</span>
+          <span class="skill-tag">DBMS</span>
         </div>
       </div>
       <div class="skill-cat reveal">
@@ -524,6 +543,7 @@
           <span class="skill-tag">Git</span>
           <span class="skill-tag">GitHub</span>
           <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">LocalStorage APIs</span>
         </div>
       </div>
     </div>
@@ -538,6 +558,41 @@
     <div class="projects-grid">
       <div class="project-card reveal">
         <div class="project-num">01 / Featured</div>
+        <div class="project-name">E-Commerce Website (Myntra-Inspired)</div>
+        <p class="project-desc">Full stack e-commerce app with product listings, category-wise filtering, search and a shopping cart with real-time price calculation. REST APIs in Node.js and Express.js, MongoDB storage, user authentication and a responsive React.js UI.</p>
+        <div class="project-tech">
+          <span class="tech-badge">React.js</span>
+          <span class="tech-badge">Node.js</span>
+          <span class="tech-badge">Express.js</span>
+          <span class="tech-badge">MongoDB</span>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">02 / Full Stack</div>
+        <div class="project-name">Library Management System</div>
+        <p class="project-desc">Relational MySQL schema for books, members and issue/return records linked by foreign keys. RESTful APIs for book CRUD, member management and borrower history using JOIN queries, with JWT auth and role-based access for admins and members.</p>
+        <div class="project-tech">
+          <span class="tech-badge">React.js</span>
+          <span class="tech-badge">Node.js</span>
+          <span class="tech-badge">Express.js</span>
+          <span class="tech-badge">MySQL</span>
+          <span class="tech-badge">JWT</span>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">03 / Web App</div>
+        <div class="project-name">Expense Tracker</div>
+        <p class="project-desc">Full stack app to add, edit, delete and categorize daily expenses with real-time updates and automatic totals. Component-based React UI, REST APIs for persistence, and a spending summary that surfaces expense patterns.</p>
+        <div class="project-tech">
+          <span class="tech-badge">HTML</span>
+          <span class="tech-badge">CSS</span>
+          <span class="tech-badge">JavaScript</span>
+          <span class="tech-badge">React.js</span>
+          <span class="tech-badge">Node.js</span>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">04 / AI/ML</div>
         <div class="project-name">Real-Time Object Detection System</div>
         <p class="project-desc">Built a real-time object detection pipeline (R.O.D.S.) that detects and classifies objects from live video streams using a custom detection pipeline with high accuracy.</p>
         <div class="project-tech">
@@ -546,15 +601,23 @@
           <span class="tech-badge">OpenCV</span>
         </div>
       </div>
-      <div class="project-card reveal">
-        <div class="project-num">02 / Web App</div>
-        <div class="project-name">Expense Tracker</div>
-        <p class="project-desc">A web-based app to manage daily expenses with add, delete, and categorize features. Uses LocalStorage for persistent data and provides real-time spending summaries.</p>
-        <div class="project-tech">
-          <span class="tech-badge">HTML</span>
-          <span class="tech-badge">CSS</span>
-          <span class="tech-badge">JavaScript</span>
-          <span class="tech-badge">LocalStorage</span>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-inner">
+    <div class="section-label reveal">experience</div>
+    <h2 class="section-title reveal">Internship</h2>
+    <div class="certs-grid">
+      <div class="cert-card reveal">
+        <div class="cert-icon" style="background:rgba(0,212,170,0.15);">🤖</div>
+        <div class="cert-info">
+          <div class="cert-name">Virtual Internship – Artificial Intelligence</div>
+          <div class="cert-issuer">IBM Developer Skills Network (IBM Career Education Program)</div>
+          <div class="cert-date">Jun – Aug 2026</div>
+          <p style="color:var(--muted);font-size:0.85rem;margin-top:0.6rem;line-height:1.6;">Project-based program covering core AI concepts and applied machine learning workflows, with exposure to industry tools and real-world AI/ML problem solving.</p>
         </div>
       </div>
     </div>
@@ -567,6 +630,14 @@
     <div class="section-label reveal">certifications</div>
     <h2 class="section-title reveal">Industry Recognition</h2>
     <div class="certs-grid">
+      <div class="cert-card reveal">
+        <div class="cert-icon" style="background:rgba(108,99,255,0.15);">☁️</div>
+        <div class="cert-info">
+          <div class="cert-name">AWS Academy Graduate – Machine Learning Foundations</div>
+          <div class="cert-issuer">Amazon Web Services (AWS Academy) · Training Badge</div>
+          <div class="cert-date">July 2026</div>
+        </div>
+      </div>
       <div class="cert-card reveal">
         <div class="cert-icon" style="background:rgba(108,99,255,0.15);">🏆</div>
         <div class="cert-info">
@@ -605,10 +676,9 @@
         <div class="edu-dot">B</div>
         <div class="edu-content">
           <div class="edu-degree">B.Tech — Computer Science & Engineering</div>
-          <div class="edu-school">SR Institute of Management & Technology, Lucknow · AKTU</div>
+          <div class="edu-school">SR Institute of Management and Technology · Abdul Kalam Technical University</div>
           <div class="edu-meta">
-            <span class="edu-badge badge-purple">2023 – 2027</span>
-            <span class="edu-badge badge-green">CGPA 8.02</span>
+            <span class="edu-badge badge-purple">Expected 2027</span>
           </div>
         </div>
       </div>
@@ -633,7 +703,7 @@
     <h2 class="section-title reveal">Let's Connect</h2>
     <div class="contact-grid">
       <div class="contact-info reveal">
-        <p>I'm actively looking for internship and placement opportunities. Whether you have a project in mind or just want to say hello — my inbox is always open!</p>
+        <p>I'm actively looking for internship and placement opportunities. Whether you have an opening in mind or just want to say hello — my inbox is always open!</p>
         <div class="contact-links">
           <a href="mailto:amitsharma.08316@gmail.com" class="contact-link">
             <span class="contact-link-icon">✉</span>
@@ -642,6 +712,10 @@
           <a href="https://www.linkedin.com/in/amit-sharma-42b4b0202/" target="_blank" class="contact-link">
             <span class="contact-link-icon">in</span>
             linkedin.com/in/amit-sharma-42b4b0202
+          </a>
+          <a href="https://github.com/amitsharma9889" target="_blank" class="contact-link">
+            <span class="contact-link-icon">⌥</span>
+            github.com/amitsharma9889
           </a>
           <a href="tel:8115803278" class="contact-link">
             <span class="contact-link-icon">✆</span>
@@ -657,15 +731,15 @@
         <form class="contact-form" id="contact-form" action="https://formspree.io/f/mnjykndk" method="POST">
           <div class="form-group">
             <label>Your Name</label>
-            <input type="text" placeholder="John Doe" required />
+            <input type="text" name="name" placeholder="John Doe" required />
           </div>
           <div class="form-group">
             <label>Email</label>
-            <input type="email" placeholder="john@company.com" required />
+            <input type="email" name="email" placeholder="john@company.com" required />
           </div>
           <div class="form-group">
             <label>Message</label>
-            <textarea placeholder="Hi Amit, I'd like to discuss an internship opportunity..."></textarea>
+            <textarea name="message" placeholder="Hi Amit, I'd like to discuss an internship opportunity..."></textarea>
           </div>
           <button type="submit" class="btn-primary" style="align-self:flex-start;">Send Message →</button>
           <div id="form-status">✓ Message sent! I'll get back to you soon.</div>
@@ -690,7 +764,7 @@
   // Typed effect
   const roles = [
     'Aspiring Full Stack Developer',
-    'AI/ML Enthusiast',
+    'React & Node.js Developer',
     'B.Tech CSE Student',
     'Problem Solver'
   ];
@@ -734,10 +808,10 @@
   const statsObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        animateCount(document.getElementById('cgpa-count'), 8.02, 2);
-        animateCount(document.getElementById('proj-count'), 2);
-        animateCount(document.getElementById('cert-count'), 3);
-        animateCount(document.getElementById('year-count'), 3);
+        animateCount(document.getElementById('intern-count'), 1);
+        animateCount(document.getElementById('proj-count'), 4);
+        animateCount(document.getElementById('cert-count'), 4);
+        animateCount(document.getElementById('year-count'), 4);
         statsObserver.disconnect();
       }
     });
